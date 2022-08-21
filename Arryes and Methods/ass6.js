@@ -9,7 +9,7 @@ let allArrs = [];
 
 // Your Code Here
 allArrs =
-  arr2[2].toLocaleLowerCase() +
-  arr1[2].toLocaleLowerCase() +
-  arr2[3].toLocaleLowerCase();
+  arr2[(arr1.length + arr1.length) / arr1.length].toLocaleLowerCase() +
+  arr1[(arr2.length + arr2.length) / arr2.length].toLocaleLowerCase() +
+  arr2[arr1.length].toLocaleLowerCase();
 console.log(allArrs); // fxy
